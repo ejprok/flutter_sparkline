@@ -230,7 +230,7 @@ class _SparklinePainter extends CustomPainter {
       this.gridLineLabelColor,
       this.labelPrefix})
       : _max = dataPoints.reduce(math.max),
-        _min = 0;
+        _min = -1;
 
   final List<double> dataPoints;
 
